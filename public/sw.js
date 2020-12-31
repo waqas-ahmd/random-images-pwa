@@ -5,12 +5,24 @@ this.addEventListener("install", (e) => {
     caches.open(cacheData).then((cache) =>
       cache.addAll([
         // these files can be found in the network tab inside the DEV Tools
-        "/static/js/bundle.js",
-        "/static/js/0.chunk.js",
-        "/static/js/main.chunk.js",
-        "/index.html",
-        "/",
+        //localhost:
+        // "/static/js/bundle.js",
+        // "/static/js/0.chunk.js",
+        // "/static/js/main.chunk.js",
+        // "/index.html",
+        // "/",
+
+        // "manifest.json",
+        // "logo192.png",
+        // "/favicon.ico",
+
+        //deployed site:
+        "https://cocky-galileo-58f5a9.netlify.app/",
+        "/static/css/main.21d08122.chunk.css",
+        "/static/js/2.d8b0c408.chunk.js",
+        "/static/js/main.1cb9d11d.chunk.js",
         "manifest.json",
+        "sw.js",
         "logo192.png",
         "/favicon.ico",
       ])
