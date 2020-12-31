@@ -6,12 +6,6 @@
   justify-content: space-around;
 }
 
-@media screen and (max-width: 1280px) {
-  .App {
-    flex-direction: column;
-  }
-}
-
 img {
   border-radius: 5px;
   width: 400px;
@@ -19,4 +13,16 @@ img {
   object-fit: cover;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.493);
   transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1280px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  img {
+    width: 95vw;
+  }
 }
