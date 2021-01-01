@@ -18,8 +18,9 @@ this.addEventListener("install", (e) => {
 
         //deployed site:
         "https://cocky-galileo-58f5a9.netlify.app/",
-        "/static/css/",
-        "/static/js/",
+        "/static/css/main.21ca11e7.chunk.css",
+        "/static/js/2.d8b0c408.chunk.js",
+        "/static/js/main.1cb9d11d.chunk.js",
         "manifest.json",
         "sw.js",
         "logo192.png",
